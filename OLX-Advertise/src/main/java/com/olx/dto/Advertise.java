@@ -40,12 +40,6 @@ public class Advertise {
 	@ApiModelProperty("photo of the advertise")
 	private Blob photo;
 
-	/*
-	 * public Advertise(int id, String title, int price, String category, String
-	 * description) { super(); this.id = id; this.title = title; this.price = price;
-	 * this.category = category; this.description = description; }
-	 */
-
 	public Blob getPhoto() {
 		return photo;
 	}

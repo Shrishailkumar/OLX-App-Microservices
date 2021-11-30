@@ -9,9 +9,6 @@ import org.springframework.stereotype.Component;
 @Component
 public class CustomInfoContributor implements org.springframework.boot.actuate.info.InfoContributor{
 
-	//@Autowired
-	//UserRepository userRepo;
-	
 	@Override
 	public void contribute(Builder builder) {
 		// TODO Auto-generated method stub

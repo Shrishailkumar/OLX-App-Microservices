@@ -16,19 +16,6 @@ import org.springframework.stereotype.Component;
 @Endpoint(id = "advertisestats")
 public class CustomAdvertiseStats {
 
-	/*- No of advertises
-	- No of active advertises
-	- No of CLOSED advertises
-	- No of OPEN advertises
-	- No of Advertises by username ({"anand": 5, "bipin": 7})*/
-
-	/*
-	 * @ReadOperation
-	 * 
-	 * @Bean public String greet() { return
-	 * "Hello from custom endpoint "+CustomAdvertiseStats.class.getSimpleName(); }
-	 */
-
 	@ReadOperation
 	public String getAdvertiseStats() {
 		return mapOfAdvertises.toString();

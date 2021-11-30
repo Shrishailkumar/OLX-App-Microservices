@@ -45,22 +45,6 @@ public class AdvertiseDataServiceImpl implements AdvertiseDataService {
 	@Autowired
 	EntityManager entityManager;
 
-	/*
-	 * public static int lastAdvertisement; private boolean isUserLoggeedIn = true;
-	 * public static Map<Integer, Advertise> advertiseMap = new HashMap<>();
-	 * 
-	 * static { advertiseMap.put(1, new Advertise(1, "Umbrella", 20, 1,
-	 * "Umbrella for sale", "Shri", Utility.getLocaleDate(),
-	 * Utility.getLocaleDate(), "open")); advertiseMap.put(2, new Advertise(2,
-	 * "Pen", 10, 2, "pen for sale", "neha", Utility.getLocaleDate(),
-	 * Utility.getLocaleDate(), "open")); advertiseMap.put(3, new Advertise(3,
-	 * "Books", 20, 1, "Books for sale", "navisha", Utility.getLocaleDate(),
-	 * Utility.getLocaleDate(), "open")); advertiseMap.put(4, new Advertise(4, "TV",
-	 * 20000, 2, "Infotainment for sale", "raghu", Utility.getLocaleDate(),
-	 * Utility.getLocaleDate(), "open")); lastAdvertisement = advertiseMap.size();
-	 * 
-	 * }
-	 */
 
 	// ----------- helper methods of modal.mapper
 	@Autowired
